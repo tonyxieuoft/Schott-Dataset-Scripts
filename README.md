@@ -13,6 +13,7 @@ The first script ("extract_species") extracts, for select species, alignment dat
 - Anolis carolinensis
 - Python molurus
 - Thamnophis sirtalis
+
 but allows for greater (or fewer) species to be pulled through user input.
 
 ### What each file does
