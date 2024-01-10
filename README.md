@@ -30,6 +30,22 @@ Before calling the main script, make sure that all of the scripts and auxillary 
 
 The main script can be called through the linux terminal via `./extract_species.sh ALIGNMENT_FOLDER_LOCATION species_file.txt`, where `ALIGNMENT_FOLDER_LOCATION` is a placeholder for the location of the direct alignment folder.  
 
+## The second script ("Create_Name_Accessions_CSVs")
+
+### Purpose
+
+The second script takes the alignment data from `Extracted_Alignments` (or any folder with alignments that follow the same heading conventions as the Schott dataset) and extracts species names and accessions from them. The names and accessions are subsequently stored in CSV format. 
+
+### What each file does
+
+`extract_name_accession.sh` is the main script. It calls on the scripts `get_first.py` and `extract_name_accession.py`. The alignment files from the Schott dataset are named in such a way that the gene name always appears first. `get_first.py` simply extracts the gene name. `extract_name_accession.py` does the bulk of the work, extracting names and accession from each fasta heading within an alignment file. Redirection and writing the output to CSV files is executed by the main script. 
+
+### Usage
+
+Similar to the first script, before calling the main script, make sure that all of the scripts and auxillary files are in the same folder depth (ex. in Downloads).
+
+The mains script can be called via the linux terminal through `./extract_name_accession.sh ALIGNMENT_FOLDER_LOCATION`. 
+
 
 
 
