@@ -17,7 +17,7 @@ but allows for greater (or fewer) species to be pulled through user input.
 
 ### What each file does
 
-'extract_species.sh' is the main script. It calls upon the scripts 'is_sp_file.py' and 'extract_species.py'. FOr each visual transduction gene, the Schott dataset contains two alignments, one containing all species investigated (denoted "sp") and the other omitting snakes (denoted "nosnake"). 'is_sp_file.py' does the simple job of determining whether a given file is an "sp" file, while 'extract_species.py' does the bulk of the work of extracting sequences for the species' of interest from a single alignment file. 
+'extract_species.sh' is the main script. It calls upon the scripts 'is_sp_file.py' and 'extract_species.py'. FOr each visual transduction gene, the Schott dataset contains two alignments, one containing all species investigated (denoted "sp") and the other omitting snakes (denoted "nosnake"). 'is_sp_file.py' does the simple job of determining whether a given file is an "sp" file, while 'extract_species.py' does the bulk of the work by extracting sequences for the species' of interest from a single alignment file. 
 
 ### Usage
 
