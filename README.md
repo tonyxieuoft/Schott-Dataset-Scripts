@@ -1,1 +1,5 @@
-# Schott-Dataset-Scripts
+# Schott Dataset Scripts
+
+## Purpose
+
+test
