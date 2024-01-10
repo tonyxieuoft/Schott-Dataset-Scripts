@@ -19,6 +19,8 @@ but allows for greater (or fewer) species to be pulled through user input.
 
 'extract_species.sh' is the main script. It calls upon the scripts 'is_sp_file.py' and 'extract_species.py'. FOr each visual transduction gene, the Schott dataset contains two alignments, one containing all species investigated (denoted "sp") and the other omitting snakes (denoted "nosnake"). 'is_sp_file.py' does the simple job of determining whether a given file is an "sp" file, while 'extract_species.py' does the bulk of the work by extracting sequences for the species' of interest from a single alignment file. 
 
+`species_file.txt` is the file specifying all species of interest to pull for. The file, by default contains the original 8 species, and can be expanded or reduced. As Gekko gecko was often referred to as only "Gekko" (with similar cases for Python molurus and Thamnophis sirtalis), `extract_species.py` contains additional code pulling specifically for these exceptions. If you do not wish for these to be pulled, omit lines from `extract_species.py.
+
 ### Usage
 
 Before calling the main scripts, make sure that all of the f
