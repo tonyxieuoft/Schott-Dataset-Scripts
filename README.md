@@ -4,7 +4,7 @@
 
 ### Purpose
 
-The first script ("extract_species") extracts, for select species, alignment data from the Schott 2018 and 2019 visual transduction gene supplementary datasets. The script pulls for these eight species by default: 
+The first script ("extract_species") extracts alignment data from the Schott 2018 and 2019 visual transduction gene supplementary datasets for select species. The script pulls for these eight species by default: 
 - Taenopgyia guttata
 - Struthio camelus australis
 - Alligator mississippiensis
